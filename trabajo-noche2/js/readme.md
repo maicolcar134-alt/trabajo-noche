@@ -1,79 +1,59 @@
-# Ejercicios Básicos de JavaScript
+# Proyecto de Formularios con Bootstrap
 
-## Ejercicio 1
-Pide al usuario su nombre mediante `prompt` y muestra en consola un saludo como: “Hola, [nombre]”.
+## 🎯 Finalidad del Proyecto
 
----
+Este proyecto tiene como objetivo que estudiantes de nivel básico en programación web comprendan y apliquen conceptos fundamentales de **HTML**, **CSS** y **JavaScript**, integrando **Bootstrap 5** mediante CDN para lograr interfaces limpias, responsivas y modernas.
 
-## Ejercicio 2
-Pide al usuario dos números, súmalos y muestra el resultado en consola.
+Además, se ha incorporado:
 
----
+- **EmailJS**, para demostrar el envío de correos electrónicos directamente desde el frontend, sin necesidad de backend, como parte de la funcionalidad de recuperación de contraseña.
+- **SweetAlert2**, para reemplazar los mensajes `alert()` tradicionales con una interfaz moderna, amigable y personalizable para validar acciones como login exitoso, errores o confirmaciones.
 
-## Ejercicio 3
-Crea un programa que reciba el año de nacimiento de una persona y calcule su edad.
+A través de esta actividad los estudiantes:
 
----
 
-## Ejercicio 4
-Pide al usuario un número y muestra si es positivo, negativo o cero.
-
----
-
-## Ejercicio 5
-Solicita al usuario una letra y muestra si es vocal o consonante.
+- Usan formularios HTML reales y comprenden su estructura.
+- Aplican clases de Bootstrap para diseño y responsividad.
+- Organizan un proyecto con múltiples vistas y archivos de estilos externos.
+- Comprenden la navegación entre páginas mediante enlaces.
+- Integran servicios externos (EmailJS y SweetAlert) para el envío de correos y visualización de alertas modernas.
+- Sientan las bases para futuras funcionalidades como validación, almacenamiento de datos o integración con backend.
 
 ---
 
-## Ejercicio 6
-Pide un número al usuario y verifica si es par o impar.
+## 📁 Estructura del Proyecto
+
+```plaintext
+/
+├── index.html                # Página principal de Login
+├── html/
+│   ├── registro.html         # Formulario para registrar usuarios nuevos
+│   ├── recuperar.html        # Vista para recuperación de contraseña
+│   └── pagina_ppal.html      # Vista principal para usuario logueado
+├── css/
+│   └── estilos.css           # Hoja de estilos externa común a todas las páginas
+└── js/
+    ├── login.js              # Script que contiene lógica del login
+    ├── recuperar.js          # Script que contiene lógica para recuperar contraseña
+    └── token_email.js        # Script para conectar email con recuperar contraseña
+```
 
 ---
 
-## Ejercicio 7
-Pide un número y muestra su tabla de multiplicar del 1 al 10.
+## 🛠️ Tecnologías Utilizadas
+
+| Tecnología              | Logo                                                                 | Descripción                                                                                   |
+|------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **HTML5**              | ![HTML5](https://img.icons8.com/color/48/html-5--v1.png)              | Lenguaje de marcado usado para estructurar las páginas web.                                  |
+| **CSS3**               | ![CSS3](https://img.icons8.com/color/48/css3.png)                     | Hojas de estilo para personalizar la apariencia de la web.                                   |
+| **Bootstrap 5**        | ![Bootstrap](https://img.icons8.com/color/48/bootstrap.png)           | Framework CSS para facilitar el diseño responsive y atractivo.                               |
+| **JavaScript**| ![JS](https://img.icons8.com/color/48/javascript--v1.png)             | Se utilizará más adelante para validaciones y lógica interactiva.                            |
+| **EmailJS**            | ![EmailJS](https://img.icons8.com/fluency/48/send-mass-email.png)     | Servicio para enviar correos desde el frontend sin necesidad de backend.                     |
+| **SweetAlert2**        | ![SweetAlert2](https://img.icons8.com/external-flat-icons-inmotus-design/48/external-alert-user-interface-flat-icons-inmotus-design.png) | Librería JS para mostrar alertas modernas, elegantes y personalizadas. |
+
 
 ---
 
-## Ejercicio 8
-Pide números al usuario hasta que ingrese cero. Al final muestra la suma de todos los números ingresados.
+¡Explora, modifica y aprende con este proyecto práctico! 🚀
 
 ---
-
-## Ejercicio 9
-Crea un array con al menos 5 nombres de personas y muéstralos en consola uno por uno.
-
----
-
-## Ejercicio 10
-Pide al usuario un nombre y verifica si está dentro de un array predefinido de nombres.
-
----
-
-## Ejercicio 11
-Crea un objeto llamado `persona` con propiedades `nombre`, `edad` y `ciudad`. Muestra sus valores en consola.
-
----
-
-## Ejercicio 12
-Convierte una frase en minúsculas a mayúsculas y muéstrala en consola.
-
----
-
-## Ejercicio 13
-Pide al usuario una frase y cuenta cuántas palabras tiene.
-
----
-
-## Ejercicio 14
-Crea un bucle `for` que muestre los números del 1 al 10 en consola.
-
----
-
-## Ejercicio 15
-Usa un bucle `while` para contar del 10 al 1 en consola.
-
----
-
-## Ejercicio 16
-Crea un programa que pida al usuario un número entre 1 y 7 y muestre el día de la semana correspondiente. Usa `if`, `else if` y `else`.
